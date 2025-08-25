@@ -58,20 +58,6 @@ body {
 .nav-link:hover {
     color: #facc15;
 }
-.mobile-menu-btn {
-    display: none;
-    flex-direction: column;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-.mobile-menu-btn span {
-    width: 25px;
-    height: 3px;
-    background: #ffffff;
-    margin: 3px 0;
-    transition: 0.3s;
-}
 
 /* Hero Section */
 .hero {
@@ -379,3 +365,76 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
 }
+.footer {
+    background: #000000;
+    border-top: 1px solid rgba(112, 112, 112, 0.3);
+    padding: 2rem 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.seção-homenagem {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.homenagem-info {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #facc15;
+    margin-bottom: 0.5rem;
+}
+
+.homenagem {
+    color: #d1d5db;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.data-homenagem {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+   
+}
+
+.social-link {
+    color: #9ca3af;
+    transition: color 0.3s ease;
+    
+}
+
+.social-link:hover {
+    color: #facc15;
+}
+
+.creditos {
+    border-top: 1px solid rgba(112, 112, 112, 0.3);
+    padding-top: 1rem;
+}
+
+.creditos p {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.creditos span {
+    color: #facc15;
+    font-weight: 600;
+}
+
+.site-info {
+    color: #6b7280 !important;
+    font-size: 0.75rem !important;
+    margin-top: 0.25rem;
+}
+
