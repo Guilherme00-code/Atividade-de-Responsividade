@@ -435,15 +435,35 @@ background: linear-gradient(rgba(0, 0, 0, 0.60));
     margin-top: 0.25rem;
 }
 
+
+@media (max-width: 459px) {
+    .logo{
+        display: none;
+    }
+
+    .nav{
+        justify-content: center;
+        margin-top: 0.8rem;
+    }
+    .hero-frase{
+        font-size: 0.10rem;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
 @media (max-width: 580px) {
 
-    .hero-buttons {
-        flex-direction: column; /* Deixa os botões um abaixo do outro */
+    
+
+    .hero-buttons { 
         align-items: center;
     }
     
     .musicas-grid, 
     .albuns-grid {
-        grid-template-columns: 1fr; /* Deixa os cards em uma única coluna */
+        grid-template-columns: 1fr;
     }
 }
+
