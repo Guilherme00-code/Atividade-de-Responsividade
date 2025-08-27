@@ -1,0 +1,82 @@
+/* Album Cards */
+.albuns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+ .album-card {
+    background: rgba(31, 41, 55, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(112, 112, 112, 0.3);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.album-card:hover {
+    border-color: #facc15;
+    transform: translateY(-8px) scale(1.05);
+}
+.album-cover {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(250, 204, 21, 0.2), rgba(31, 41, 55, 1));
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(250, 204, 21, 0.3);
+}
+.cd-icon {
+    font-size: 4rem;
+    color: #facc15;
+}
+.album-title {
+    font-size: 1.10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #facc15;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.album-year {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.album-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.album-tracks {
+    text-align: center;
+}
+ .tracks-label {
+    color: #d1d5db;
+    font-size: 0.875rem;
+}
+ .tracks-count {
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+ .album-description {
+    color: #d1d5db;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+ .album-highlight {
+    background: rgba(250, 204, 21, 0.1);
+    border: 1px solid rgba(250, 204, 21, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    flex: 1;
+    color: #facc15;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
