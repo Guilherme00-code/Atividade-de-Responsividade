@@ -76,3 +76,20 @@
 .btn-saiba-mais:hover {
     background-color: #cc0000;
 }
+
+@media (max-width: 900px) {
+  .carreira {
+    flex-direction: column; 
+    text-align: center;
+    gap: 30px;
+    padding: 30px 10px;
+  }
+  .sobre,
+  .imgs {
+    width: 100%; 
+    max-width: 90%; 
+  }
+  .title {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+}

@@ -80,3 +80,23 @@
     font-size: 0.75rem;
     font-weight: 600;
 }
+
+@media (max-width: 800px) {
+  .albuns-section {
+    padding: 3rem 0; 
+  }
+  .section-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+  .section-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .albuns-grid {
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+  }
+}
