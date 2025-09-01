@@ -164,8 +164,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.60));
   }
   .hero-buttons {
     flex-direction: column; 
-margin-bottom: 100px;
-margin-left: 30px;
+    justify-content: center;
   }
   .btn {
     width: 100%;
